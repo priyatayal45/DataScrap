@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestPackage.HomeTest">
+      <class name="TestPackage.DataScrapTest">
         <methods>
+          <include name="extractDataFromtable"/>
           <include name="beforeverytest"/>
-          <include name="searchtestforactive"/>
-          <include name="searchtestforenabled"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- TestPackage.HomeTest -->
+      </class> <!-- TestPackage.DataScrapTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

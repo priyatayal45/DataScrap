@@ -3,20 +3,10 @@
 
 <suite name="MySuite">
 
-<listeners>
-<listener class-name="utility.ExtentReporting"></listener>
-</listeners>
   <test  name="Test">
       
   <classes>
-  <class name = "TestPackage.LoginTest">
-  <parameter name = "username1" value="Admin"></parameter> 
-  <parameter name = "password1" value="admin123"></parameter>
-  <parameter name = "username2" value="Admin"></parameter> 
-  <parameter name = "password2" value="dmin123"></parameter>  
-  </class>
   <class name="TestPackage.HomeTest">
-    <parameter name = "name" value="Aaliyah.Haq"></parameter> 
   </class>
   </classes>
   </test> <!-- Test -->

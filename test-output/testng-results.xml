@@ -1,159 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="2" failed="2" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-11-24T15:34:46 IST" name="MySuite" finished-at="2020-11-24T15:35:28 IST" duration-ms="42377">
+  <suite started-at="2026-04-04T04:44:34 IST" name="Default suite" finished-at="2026-04-04T04:44:56 IST" duration-ms="22207">
     <groups>
     </groups>
-    <test started-at="2020-11-24T15:34:46 IST" name="Test" finished-at="2020-11-24T15:35:28 IST" duration-ms="42377">
-      <class name="TestPackage.HomeTest">
-        <test-method signature="searchtestforactive(java.lang.String)[pri:0, instance:TestPackage.HomeTest@ea6147e]" started-at="2020-11-24T15:35:10 IST" name="searchtestforactive" finished-at="2020-11-24T15:35:19 IST" duration-ms="9074" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aaliyah.Haq]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Active] but found [Enabled]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Active] but found [Enabled]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at TestPackage.HomeTest.searchtestforactive(HomeTest.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchtestforactive -->
-        <test-method signature="searchtestforenabled(java.lang.String)[pri:0, instance:TestPackage.HomeTest@ea6147e]" started-at="2020-11-24T15:35:20 IST" name="searchtestforenabled" finished-at="2020-11-24T15:35:28 IST" duration-ms="8139" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Aaliyah.Haq]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchtestforenabled -->
-      </class> <!-- TestPackage.HomeTest -->
-      <class name="TestPackage.LoginTest">
-        <test-method is-config="true" signature="beforeverytest()[pri:0, instance:TestPackage.LoginTest@3fb1549b]" started-at="2020-11-24T15:34:46 IST" name="beforeverytest" finished-at="2020-11-24T15:34:59 IST" duration-ms="13020" status="PASS">
+    <test started-at="2026-04-04T04:44:34 IST" name="Default test" finished-at="2026-04-04T04:44:56 IST" duration-ms="22207">
+      <class name="TestPackage.DataScrapTest">
+        <test-method is-config="true" signature="beforeverytest()[pri:0, instance:TestPackage.DataScrapTest@ba2f4ec]" started-at="2026-04-04T04:44:34 IST" name="beforeverytest" finished-at="2026-04-04T04:44:43 IST" duration-ms="9744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeverytest -->
-        <test-method signature="LoginTest1(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.LoginTest@3fb1549b]" started-at="2020-11-24T15:34:59 IST" name="LoginTest1" finished-at="2020-11-24T15:35:08 IST" duration-ms="9109" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="extractDataFromtable()[pri:0, instance:TestPackage.DataScrapTest@ba2f4ec]" started-at="2026-04-04T04:44:43 IST" name="extractDataFromtable" finished-at="2026-04-04T04:44:53 IST" duration-ms="9447" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginTest1 -->
-        <test-method signature="LoginTest2(java.lang.String, java.lang.String)[pri:0, instance:TestPackage.LoginTest@3fb1549b]" started-at="2020-11-24T15:35:08 IST" name="LoginTest2" finished-at="2020-11-24T15:35:10 IST" duration-ms="1714" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dmin123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError
-at org.junit.Assert.fail(Assert.java:92)
-at org.junit.Assert.assertTrue(Assert.java:43)
-at org.junit.Assert.assertTrue(Assert.java:54)
-at TestPackage.LoginTest.LoginTest2(LoginTest.java:38)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:764)
-at org.testng.TestRunner.run(TestRunner.java:585)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-at org.testng.TestNG.runSuites(TestNG.java:1069)
-at org.testng.TestNG.run(TestNG.java:1037)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:TestPackage.LoginTest@3fb1549b]" started-at="2020-11-24T15:35:28 IST" name="teardown" finished-at="2020-11-24T15:35:28 IST" duration-ms="78" status="PASS">
+        </test-method> <!-- extractDataFromtable -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestPackage.DataScrapTest@ba2f4ec]" started-at="2026-04-04T04:44:53 IST" name="teardown" finished-at="2026-04-04T04:44:56 IST" duration-ms="2908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- TestPackage.LoginTest -->
-    </test> <!-- Test -->
-  </suite> <!-- MySuite -->
+      </class> <!-- TestPackage.DataScrapTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
