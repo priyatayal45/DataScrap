@@ -96,6 +96,3 @@ output.csv
 ## 👩‍💻 Author
 
 Priya Tayal
-
-Give it a ⭐ on GitHub!
-# DataScrap
